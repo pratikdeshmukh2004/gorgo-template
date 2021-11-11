@@ -1,0 +1,173 @@
+html,body{
+    margin:0;
+    padding:0;
+    font-family:  Heebo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+ }
+ .header{
+    width:100vw;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+ }
+ .header img{
+     margin-left: 25px;
+     width: 110px;
+     height: 35px;
+     margin-top: 25px;
+ }
+ .nav{
+     display: flex;
+     margin-left: auto;
+     justify-content: space-between;
+     margin-right: auto;
+ }
+ .nav a{
+     padding: 10px;
+     display: flex;
+     color: #0000008A;
+     font-weight: 900;
+     text-decoration: none;
+
+ }
+ .nav svg{
+     margin-top: 20px;
+     height: 20px;
+ }
+ .nav .home{
+     color: black;
+ }
+ .right_nav{
+     padding: 25px;
+ }
+ .nav_button{
+     padding: 10px 20px;
+     margin-left: 20px;
+     font-size: 15px;
+     border: 1px solid #03A87c;
+     border-radius: 5px;
+     font-weight: bold;
+     color: #03A87c;
+     background-color: white;
+ }
+ .register{
+    background-color: #03A87c;
+    color: white; 
+}
+.first_content{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+}
+.poster_image{
+    width: 850px;
+    height: 400px;
+}
+.top_blog_content{
+    margin-left: 50px;
+    line-height: 9px;
+    margin-top: 40px;
+}
+
+.top_blog_content h2{
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+.poster{
+    width: 850px;
+    height: 400px;
+}
+
+.dull_text{
+    color: #0000008A;
+}
+.green_text{
+    color: #03A87c;
+}
+.poster_content{
+    margin-top: -50px;
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+.poster_content div{
+    padding: 0px 10px;
+    display: flex;
+    font-weight: 400;
+}
+.poster_content div svg{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.mt2{
+    margin-top: 2px;
+}
+.trending_blogs{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+.trending_blogs img{
+    border-radius: 5px;
+    width: 150px;
+}
+
+.trending_blogs .trend_blog{
+    margin-top: 40px;
+    display: flex;
+}
+
+.trending_blogs .trend_blog:nth-child(1){
+    margin-top: 0px;
+}
+
+.tend-blog-con{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.tend-blog-con h4{
+    margin-top: 0;
+}
+.linh{
+    line-height: 0px;
+}
+.small_text{
+    font-size: 14px;
+}
+.mt5{
+    margin-top: 30px;
+}
+.tend-blog-con .info{
+    margin-top: 20px;
+}
+
+.tend-blog-con .info .dot svg{
+    font-weight: bold;
+    font-size: 30px;
+}
+.bi-check-circle-fill{
+    font-size: 30px;
+}
+.profile-pic{
+    width: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.info{
+    display: flex;
+}
+.mt10{
+    margin-top: 30px;
+}
+.ml2{
+    margin-left: 5px;
+}
+.mt6{
+    margin-top: 25px;
+}
+.second_content{
+    padding: 50px;
+    background-color: #f8f9fa;
+    margin-top: 50px;
+}
